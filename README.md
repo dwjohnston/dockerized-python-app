@@ -20,7 +20,8 @@
 - How to run the python app
 
       git clone https://github.com/fabian460/460degreesTechChallenge.git
-      $> pip install flask
+      $> cd 460degreesTechChallenge
+      $> pip install flask flask-restful
       $> python server.py
 
 - What are we looking for :
