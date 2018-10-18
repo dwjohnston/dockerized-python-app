@@ -1,6 +1,6 @@
-##460degrees Technical Challenge for System Engineers
+## 460degrees Technical Challenge for System Engineers
 
-###Deploy the python application in this repo to an application server.
+### Deploy the python application in this repo to an application server.
 
 - Using code, write a deployment procedure to :
   - provision an application server ( local VM or on your favourite cloud )
