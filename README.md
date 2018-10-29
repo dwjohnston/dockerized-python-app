@@ -7,10 +7,11 @@
   - use the operating system of your choice
   - apply appropriate configurations and secure the operating system
   - install the python application within this repository
+  - make the application available on port 80
 
 - Supply documentation to illustrate :
   - how to execute your deployment code
-  - your assumption and design considerations
+  - your assumptions and design considerations
   - any requirement needed to execute the deployment, eg account details, images, tool dependencies etc..
 
 - How to submit your solution :
