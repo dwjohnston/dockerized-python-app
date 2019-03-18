@@ -1,5 +1,11 @@
 ## 460degrees Technical Challenge for System Engineers
 
+A simple Hello World python app, dockerized, and able to run on Heroku. 
+
+Heroku deployment here: https://pythontestapp460.herokuapp.com/
+
+(Please allow 30 seconds for the Heroku application to wake up). 
+
 ## Usage 
 
 ### Local
