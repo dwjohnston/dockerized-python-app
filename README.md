@@ -39,7 +39,7 @@ where `myapplicationname` is the name of your Heroku application
 
 ## Design decisions
 
-Docker is a simple approach for web applications. Is portable, cloud agnostic. 
+Docker is a simple approach for web applications. It is portable, cloud agnostic. 
 
 I changed the initial code to not hardcode the port that the server runs on. It now refers to an environment variable PORT. 
 
