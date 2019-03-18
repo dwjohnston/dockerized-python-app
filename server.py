@@ -2,7 +2,7 @@
 
 from flask import Flask, request
 from flask_restful import Resource, Api
-
+import os
 
 app = Flask(__name__)
 api = Api(app)
@@ -14,4 +14,4 @@ class Helloworld(Resource):
 api.add_resource(Helloworld, '/')
 
 if __name__ == '__main__':
-     app.run(host = '0.0.0.0', port='5002')
+     app.run(host = '0.0.0.0', port=os.getenv('PORT', 5002))

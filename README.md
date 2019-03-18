@@ -1,5 +1,55 @@
 ## 460degrees Technical Challenge for System Engineers
 
+## Usage 
+
+### Local
+
+Assuming you have python and pip installed: 
+
+```
+pip install flask flask-restful
+python server.py
+```
+
+### Local - Docker
+
+Assuming you have docker installed and setup: 
+
+```
+./build_and_run_local.sh
+```
+
+### Heroku 
+Assuming you have Heroku CLI installed: 
+
+Create an application in Heroku
+
+Make sure you are logged in: 
+```
+heroku login
+```
+
+Run: 
+
+```
+./build_and_run_heroku.sh myapplicationname
+```
+
+where `myapplicationname` is the name of your Heroku application
+
+
+## Security Considerations
+
+The heroku deployment script may not be appropriate for a CI/CD server environment. 
+
+See: 
+
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+for details on setting up a credential helper. 
+
+
+
 ### Deploy the python application in this repo to an application server.
 
 - Using code, write a deployment procedure to :
