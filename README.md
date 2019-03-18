@@ -37,6 +37,23 @@ Run:
 
 where `myapplicationname` is the name of your Heroku application
 
+## Design decisions
+
+Docker is a simple approach for web applications. Is portable, cloud agnostic. 
+
+I changed the initial code to not hardcode the port that the server runs on. It now refers to an environment variable PORT. 
+
+For deployment to Heroku, Heroku will determine this port. 
+
+For deployment to other environments, this can be set when running the docker image. 
+
+eg: 
+
+```
+docker run --env PORT=3000 -p 3000:3001 pythontestapp 
+```
+
+The scripts are for demonstration only. For example the name of the docker image is hardcoded in them, which could cause problems if there happen to be other images in your docker registry with the same name. 
 
 ## Security Considerations
 
